@@ -8,7 +8,7 @@ while collatz > 1:
         collatz = collatz // 2
     else:
         collatz = 3 * collatz + 1
-    seq += "->" + str(collatz)
+    seq += " -> " + str(collatz)
     steps += 1
 print(f"{seq}", end ="\n")
 print(f"Sequence had {steps} total steps.")
