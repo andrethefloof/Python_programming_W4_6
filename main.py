@@ -1,4 +1,4 @@
-print("Program starting.\n")
+print("Program starting.")
 integer = int(input("Insert a positive integer: "))
 collatz = integer
 seq = str(collatz)
